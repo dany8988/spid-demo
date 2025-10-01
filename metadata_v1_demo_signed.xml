@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="pfx10ca922f-97dd-34ea-9255-094313161e52" entityID="http://www.libertaciviliimmigrazione.dlci.interno.gov.it" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx10ca922f-97dd-34ea-9255-094313161e52">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>hSCQHr9RTrhIsJeWIXy3fJUs+iWbV7sdRa+1QS5NcmU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+tHgm5AV+kbEGuvTT/2UVN3RdImAB+0cbnYVwJs0OM4lTdxf91wn5+8BNKp1treP9/NLawtcAZOta&#13;
+6B8CZ0b+QB/201xYaWlF1g+wFV7TaDmrQVpwoCGIoaO7eUG6Fxopu8yBIy7XCNKmvXSCPsguf3vh&#13;
+N2MfWuSs164ggBWNwD9I+Vz/RWxkwiYj3Pe3Rz9xZQDKVyy+L6CkC9CEJROGmOYS+wWRhYqkaP5G&#13;
+9oUtPY8imF40ErA82WY6tgFvdZLFdqSeHZtkEEHaOnokNWUYJNx+PXzdwZ0yRIptGhfKVZrDEY0C&#13;
+lEWXooU00Eqb3jt9Pzj63fxDkIn+Sq1mVWBx6Q==
+</ds:SignatureValue>
+</ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"> 
+<md:KeyDescriptor use="signing"> 
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+            <ds:X509Data> 
+                <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIEOWH9SzANBgkqhkiG9w0BAQsFADBZMQswCQYDVQQGEwJJ
+VDELMAkGA1UECBMCUk0xDTALBgNVBAcTBFJvbWExDTALBgNVBAoTBERlbW8xCzAJ
+BgNVBAsTAklUMRIwEAYDVQQDEwlEZW1vIFNQSUQwHhcNMjUxMDAxMTUwNjEwWhcN
+MjYxMDAxMTUwNjEwWjBZMQswCQYDVQQGEwJJVDELMAkGA1UECBMCUk0xDTALBgNV
+BAcTBFJvbWExDTALBgNVBAoTBERlbW8xCzAJBgNVBAsTAklUMRIwEAYDVQQDEwlE
+ZW1vIFNQSUQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDqfIHNPfPl
+To0HDqbeCFtJDH7e8nLubTBB36JhMUdhikyzSa7Jp9zZZfWikiO2PDyPOy2KT9hj
+p0gQ5ljcyF6cK2pUf0qXvbDdBgw+FQj5KLIeVnrpiTC4yEI0xzL14Cl5sALsRdpX
+pM/cxkA8sGpaUwNhbjYJmA8GeJu/d+43CmzjZQd0cigP1+gcq5VwqZYY7oD6RdMh
+l+jj2a8a6LFnlkndWplwu9JcxNpzqg+npYpf9p6XvJFZHBBek9cdvEDCrkqvTgNH
+azgAcdvHBE0LikmcbJR5hFcQX5ifMGsk62JxERJFpxYU0fUCWVmhIInG++Lp/CRy
+/zg+NrRWMQ6nAgMBAAGjITAfMB0GA1UdDgQWBBQk0g4d2Q2O2eFhFjjlUkaHl4fL
+xDANBgkqhkiG9w0BAQsFAAOCAQEAP0HNSTcfBYHIjqjYlXyKTFq6+7YyN3Ot/NuX
+YTceM3yG3U1JBrrtB5XK2uTJRTmXe4h9+7CWjcVLL37H11YKBFXLuz4HCreJlgmS
+AB7PbJEdsXsXeRlmgTLRvjg++L2zAjfaxPVF1fm+3WgTmKHogbrpvoT8CN7E9ac7
+oeHJK+C1UF2rppjopypL3gbFOm0GxbnUfjFmA5wePYCdn04QHZUFEhoN6y2G0FGw
+BwGeUcA3dLO/FrBJEUvdUKtQQWEzYcwM3wjwayaFI6SRJV8+mK8hlr2oMZ5loImV
+QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate> 
+            </ds:X509Data> 
+        </ds:KeyInfo> 
+    </md:KeyDescriptor> 
+        
+    <md:KeyDescriptor use="encryption"> 
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+            <ds:X509Data> 
+                <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIEOWH9SzANBgkqhkiG9w0BAQsFADBZMQswCQYDVQQGEwJJ
+VDELMAkGA1UECBMCUk0xDTALBgNVBAcTBFJvbWExDTALBgNVBAoTBERlbW8xCzAJ
+BgNVBAsTAklUMRIwEAYDVQQDEwlEZW1vIFNQSUQwHhcNMjUxMDAxMTUwNjEwWhcN
+MjYxMDAxMTUwNjEwWjBZMQswCQYDVQQGEwJJVDELMAkGA1UECBMCUk0xDTALBgNV
+BAcTBFJvbWExDTALBgNVBAoTBERlbW8xCzAJBgNVBAsTAklUMRIwEAYDVQQDEwlE
+ZW1vIFNQSUQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDqfIHNPfPl
+To0HDqbeCFtJDH7e8nLubTBB36JhMUdhikyzSa7Jp9zZZfWikiO2PDyPOy2KT9hj
+p0gQ5ljcyF6cK2pUf0qXvbDdBgw+FQj5KLIeVnrpiTC4yEI0xzL14Cl5sALsRdpX
+pM/cxkA8sGpaUwNhbjYJmA8GeJu/d+43CmzjZQd0cigP1+gcq5VwqZYY7oD6RdMh
+l+jj2a8a6LFnlkndWplwu9JcxNpzqg+npYpf9p6XvJFZHBBek9cdvEDCrkqvTgNH
+azgAcdvHBE0LikmcbJR5hFcQX5ifMGsk62JxERJFpxYU0fUCWVmhIInG++Lp/CRy
+/zg+NrRWMQ6nAgMBAAGjITAfMB0GA1UdDgQWBBQk0g4d2Q2O2eFhFjjlUkaHl4fL
+xDANBgkqhkiG9w0BAQsFAAOCAQEAP0HNSTcfBYHIjqjYlXyKTFq6+7YyN3Ot/NuX
+YTceM3yG3U1JBrrtB5XK2uTJRTmXe4h9+7CWjcVLL37H11YKBFXLuz4HCreJlgmS
+AB7PbJEdsXsXeRlmgTLRvjg++L2zAjfaxPVF1fm+3WgTmKHogbrpvoT8CN7E9ac7
+oeHJK+C1UF2rppjopypL3gbFOm0GxbnUfjFmA5wePYCdn04QHZUFEhoN6y2G0FGw
+BwGeUcA3dLO/FrBJEUvdUKtQQWEzYcwM3wjwayaFI6SRJV8+mK8hlr2oMZ5loImV
+QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate> 
+            </ds:X509Data> 
+        </ds:KeyInfo> 
+    </md:KeyDescriptor> 
+        
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portaleservizi.dlci.interno.it/spid-webapp/Logout"/>
+	
+
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/Response" index="0" isDefault="true"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseGsev" index="1"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseCittadinanza" index="2"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseSportello" index="3"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseSessioneEsami" index="4"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/AliSua/sicurezza/rest/login-spid-redirect" index="5"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseLgNet" index="6"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseRelint" index="7"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseSau" index="8"/> 
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseFami" index="9"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseMonitoraggioPresenze" index="10"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseResettlement" index="11"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseSua" index="12"/>
+	
+    <md:AttributeConsumingService index="1"> 
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
+        <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+    </md:AttributeConsumingService> 
+
+</md:SPSSODescriptor><md:Organization xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"> 
+    <md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Ministero dell'Interno</md:OrganizationName> 
+    <md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Ministero dell'Interno</md:OrganizationDisplayName> 
+    <md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">http://www.interno.gov.it/it</md:OrganizationURL> 
+</md:Organization><md:ContactPerson contactType="other" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+	<md:Extensions>
+		<spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">VO38HQ</spid:IPACode>
+		<spid:FiscalCode xmlns:spid="https://spid.gov.it/saml-extensions">80215430580</spid:FiscalCode>
+		<spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+	</md:Extensions>
+	<md:EmailAddress>protocollo.ufficio6dlci@interno.it</md:EmailAddress>
+</md:ContactPerson></md:EntityDescriptor>
