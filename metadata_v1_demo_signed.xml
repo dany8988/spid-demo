@@ -8,15 +8,15 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>hSCQHr9RTrhIsJeWIXy3fJUs+iWbV7sdRa+1QS5NcmU=</ds:DigestValue>
+<ds:DigestValue>TyMmuwH5vL1P/ElLh54x/UvriAWBMdvjkBqp+5E666M=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-tHgm5AV+kbEGuvTT/2UVN3RdImAB+0cbnYVwJs0OM4lTdxf91wn5+8BNKp1treP9/NLawtcAZOta&#13;
-6B8CZ0b+QB/201xYaWlF1g+wFV7TaDmrQVpwoCGIoaO7eUG6Fxopu8yBIy7XCNKmvXSCPsguf3vh&#13;
-N2MfWuSs164ggBWNwD9I+Vz/RWxkwiYj3Pe3Rz9xZQDKVyy+L6CkC9CEJROGmOYS+wWRhYqkaP5G&#13;
-9oUtPY8imF40ErA82WY6tgFvdZLFdqSeHZtkEEHaOnokNWUYJNx+PXzdwZ0yRIptGhfKVZrDEY0C&#13;
-lEWXooU00Eqb3jt9Pzj63fxDkIn+Sq1mVWBx6Q==
+W88IsDdcYCxC/Gzy+TTz90cMM9OXdJ7fyvdOtbNHCoi1wImTc6IkYNQCYSaEYM7rDnNIwpz7CZGG&#13;
+UrI++yucVi7PEuAsDPufWhNxRsEbSQQdHYHsH8fc9EcsaxMPFutT3sCUv0G6MoXO2C+WKfGtK7Yd&#13;
+t9jIZqOO/PBAxuQb02w9PRzCtskER4B785pWEnREqnSAz2tuDtGbC2+QPVL4ZOwQRaK7FPPgf+xh&#13;
+oe+PahUk+FQk7AcB2hYBmJmJbNp22GUdi9hvjUgukR4dJcH5IRv2FyZHU0C0l1q4IYN4+kwpKuAY&#13;
+ybCLx9JEb5HEMww451Py4F5fkE4z8PV8kLrcug==
 </ds:SignatureValue>
 <ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDUTCCAjmgAwIBAgIEOWH9SzANBgkqhkiG9w0BAQsFADBZMQswCQYDVQQGEwJJVDELMAkGA1UE&#13;
 CBMCUk0xDTALBgNVBAcTBFJvbWExDTALBgNVBAoTBERlbW8xCzAJBgNVBAsTAklUMRIwEAYDVQQD&#13;
@@ -101,6 +101,7 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
 	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseMonitoraggioPresenze" index="10"/>
 	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseResettlement" index="11"/>
 	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseSua" index="12"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://localhost:8443/spid-webapp/ResponseSindaca" index="13"/>
 	
     <md:AttributeConsumingService index="1"> 
         <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
@@ -122,6 +123,7 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
         <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="companyFiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
     </md:AttributeConsumingService> 
 
 </md:SPSSODescriptor><md:Organization xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"> 
