@@ -1,7 +1,40 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx10ca922f-97dd-34ea-9255-094313161e52" entityID="http://www.libertaciviliimmigrazione.dlci.interno.gov.it">
-<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"> 
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="pfx10ca922f-97dd-34ea-9255-094313161e52" entityID="http://www.libertaciviliimmigrazione.dlci.interno.gov.it" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx10ca922f-97dd-34ea-9255-094313161e52">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>l1u9Wk/SHZ8XdhfUNflXyheUB+ypvNZrlnpLWHi8Fgs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+QqgcGWA6xxzA7B90aWa75vjo2Rx/F0Nwuy8ZFk/62NenEcnoituzjxOKXmG2VsjRrD3DAcXQIjRb&#13;
+mrQVJebsflSVcD3Lkqjbvk2qazcKR3PnwBBK27BsgVDMo3ArXK/yK1byHRWuzAne7r3vJxwnOrTO&#13;
+p4nqGYzcHyv+TJ7SYIji+QRPrT3gr/n62IYLQaGtrIBsJITo2nBBlPDFMiikZcWBtmFDqraxeH6W&#13;
+obXcjD81Fi+/EI7n/Qh0nFs/6zzd5TpWxvu+7Xr9BsckKUSpY4cFDRw6wevbIK8gyAjYzyLKskHM&#13;
+6fVzmTljE52/TH7DN/ywyi3ktzQslr6RpuJKew==
+</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDUTCCAjmgAwIBAgIEOWH9SzANBgkqhkiG9w0BAQsFADBZMQswCQYDVQQGEwJJVDELMAkGA1UE&#13;
+CBMCUk0xDTALBgNVBAcTBFJvbWExDTALBgNVBAoTBERlbW8xCzAJBgNVBAsTAklUMRIwEAYDVQQD&#13;
+EwlEZW1vIFNQSUQwHhcNMjUxMDAxMTUwNjEwWhcNMjYxMDAxMTUwNjEwWjBZMQswCQYDVQQGEwJJ&#13;
+VDELMAkGA1UECBMCUk0xDTALBgNVBAcTBFJvbWExDTALBgNVBAoTBERlbW8xCzAJBgNVBAsTAklU&#13;
+MRIwEAYDVQQDEwlEZW1vIFNQSUQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDqfIHN&#13;
+PfPlTo0HDqbeCFtJDH7e8nLubTBB36JhMUdhikyzSa7Jp9zZZfWikiO2PDyPOy2KT9hjp0gQ5ljc&#13;
+yF6cK2pUf0qXvbDdBgw+FQj5KLIeVnrpiTC4yEI0xzL14Cl5sALsRdpXpM/cxkA8sGpaUwNhbjYJ&#13;
+mA8GeJu/d+43CmzjZQd0cigP1+gcq5VwqZYY7oD6RdMhl+jj2a8a6LFnlkndWplwu9JcxNpzqg+n&#13;
+pYpf9p6XvJFZHBBek9cdvEDCrkqvTgNHazgAcdvHBE0LikmcbJR5hFcQX5ifMGsk62JxERJFpxYU&#13;
+0fUCWVmhIInG++Lp/CRy/zg+NrRWMQ6nAgMBAAGjITAfMB0GA1UdDgQWBBQk0g4d2Q2O2eFhFjjl&#13;
+UkaHl4fLxDANBgkqhkiG9w0BAQsFAAOCAQEAP0HNSTcfBYHIjqjYlXyKTFq6+7YyN3Ot/NuXYTce&#13;
+M3yG3U1JBrrtB5XK2uTJRTmXe4h9+7CWjcVLL37H11YKBFXLuz4HCreJlgmSAB7PbJEdsXsXeRlm&#13;
+gTLRvjg++L2zAjfaxPVF1fm+3WgTmKHogbrpvoT8CN7E9ac7oeHJK+C1UF2rppjopypL3gbFOm0G&#13;
+xbnUfjFmA5wePYCdn04QHZUFEhoN6y2G0FGwBwGeUcA3dLO/FrBJEUvdUKtQQWEzYcwM3wjwayaF&#13;
+I6SRJV8+mK8hlr2oMZ5loImVQqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"> 
 <md:KeyDescriptor use="signing"> 
-        <ds:KeyInfo> 
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
             <ds:X509Data> 
                 <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIEOWH9SzANBgkqhkiG9w0BAQsFADBZMQswCQYDVQQGEwJJ
 VDELMAkGA1UECBMCUk0xDTALBgNVBAcTBFJvbWExDTALBgNVBAoTBERlbW8xCzAJ
@@ -26,7 +59,7 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
     </md:KeyDescriptor> 
         
     <md:KeyDescriptor use="encryption"> 
-        <ds:KeyInfo> 
+        <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
             <ds:X509Data> 
                 <ds:X509Certificate>MIIDUTCCAjmgAwIBAgIEOWH9SzANBgkqhkiG9w0BAQsFADBZMQswCQYDVQQGEwJJ
 VDELMAkGA1UECBMCUk0xDTALBgNVBAcTBFJvbWExDTALBgNVBAoTBERlbW8xCzAJ
@@ -71,8 +104,8 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
 	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://10.40.3.196:8081/spid-webapp/ResponseSindaca" index="13"/>
 	
     <md:AttributeConsumingService index="1"> 
-        <md:ServiceName xml:lang="it">Login</md:ServiceName> 
-        <md:ServiceDescription xml:lang="it">Login</md:ServiceDescription> 
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
 		<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
@@ -90,8 +123,8 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
     </md:AttributeConsumingService>
 	
    <md:AttributeConsumingService index="2"> 
-        <md:ServiceName xml:lang="it">Login</md:ServiceName> 
-        <md:ServiceDescription xml:lang="it">Login</md:ServiceDescription> 
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
 		<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
@@ -111,8 +144,8 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
     </md:AttributeConsumingService>
 	
 	   <md:AttributeConsumingService index="3"> 
-        <md:ServiceName xml:lang="it">Login</md:ServiceName> 
-        <md:ServiceDescription xml:lang="it">Login</md:ServiceDescription> 
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
 		<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
@@ -135,8 +168,8 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
 
 
    <md:AttributeConsumingService index="4"> 
-        <md:ServiceName xml:lang="it">Login</md:ServiceName> 
-        <md:ServiceDescription xml:lang="it">Login</md:ServiceDescription> 
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
 		<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
@@ -159,8 +192,8 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
 
 
    <md:AttributeConsumingService index="5"> 
-        <md:ServiceName xml:lang="it">Login</md:ServiceName> 
-        <md:ServiceDescription xml:lang="it">Login</md:ServiceDescription> 
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
 		<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
@@ -183,8 +216,8 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
 
 	
 	<md:AttributeConsumingService index="10">
-        <md:ServiceName xml:lang="it">Login</md:ServiceName> 
-        <md:ServiceDescription xml:lang="it">Login</md:ServiceDescription> 
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
 		<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
@@ -203,8 +236,8 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
 	
 	
 	<md:AttributeConsumingService index="20">
-        <md:ServiceName xml:lang="it">Login</md:ServiceName> 
-        <md:ServiceDescription xml:lang="it">Login</md:ServiceDescription> 
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
         <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
         <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
@@ -217,8 +250,8 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
 	
 	
 	<md:AttributeConsumingService index="30">
-        <md:ServiceName xml:lang="it">Login</md:ServiceName> 
-        <md:ServiceDescription xml:lang="it">Login</md:ServiceDescription> 
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
 		<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
@@ -237,8 +270,8 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
 	
 	
 	<md:AttributeConsumingService index="40"> 
-        <md:ServiceName xml:lang="it">Login</md:ServiceName> 
-        <md:ServiceDescription xml:lang="it">Login</md:ServiceDescription> 
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
 		<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
@@ -260,21 +293,15 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
     </md:AttributeConsumingService> 
 
 
-</md:SPSSODescriptor> 
-
-<md:Organization> 
-    <md:OrganizationName xml:lang="it">Ministero dell'Interno</md:OrganizationName> 
-    <md:OrganizationDisplayName xml:lang="it">Ministero dell'Interno</md:OrganizationDisplayName> 
-    <md:OrganizationURL xml:lang="it">http://www.interno.gov.it/it</md:OrganizationURL> 
-</md:Organization>
-
-<md:ContactPerson contactType="other">
+</md:SPSSODescriptor><md:Organization xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"> 
+    <md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Ministero dell'Interno</md:OrganizationName> 
+    <md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Ministero dell'Interno</md:OrganizationDisplayName> 
+    <md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">http://www.interno.gov.it/it</md:OrganizationURL> 
+</md:Organization><md:ContactPerson contactType="other" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
 	<md:Extensions>
-		<spid:IPACode>VO38HQ</spid:IPACode>
-		<spid:FiscalCode>80215430580</spid:FiscalCode>
-		<spid:Public/>
+		<spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">VO38HQ</spid:IPACode>
+		<spid:FiscalCode xmlns:spid="https://spid.gov.it/saml-extensions">80215430580</spid:FiscalCode>
+		<spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
 	</md:Extensions>
 	<md:EmailAddress>protocollo.ufficio6dlci@interno.it</md:EmailAddress>
-</md:ContactPerson>
-
-</md:EntityDescriptor>
+</md:ContactPerson></md:EntityDescriptor>
