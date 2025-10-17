@@ -8,15 +8,15 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>sjCU9yghMzjB2CJhhD8OWjPsG2vtymOlQ3xHpn8raUc=</ds:DigestValue>
+<ds:DigestValue>jawRnyO7KIp5uDHhpgucQAw/5iVGbFVcKgrKe99ZOKw=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-Ho0/YP+01AAdb3Dcyxyuch9dF4eLK+7BosQaNK566KxHEDPN2lc4YCD6dXWIjG8T+nQSZxAvGd64&#13;
-LnzwRx+dIjJvpSPf0yF0wq3wFPiROsa5sx/4vU4kcfBKSwZ4fY2x2O9Fc6939q6Zqlp2RPwDc8y9&#13;
-UozknyKXqccTxM+DMxD9GGsD4Ayg4Txf1QYznvA8aCc4iyoRTi/+JF+6fhxfJClVi6TCVCJ2zlmw&#13;
-zou0BL+/qTF3PMYw1eDug5m6ghQdMpRMca6SwQC5dFPI7MKbid3KCYFcAyGhjjXP9Qs76iBpGV2k&#13;
-Mpa8r+NiAO5TXyczfmhyiMirWnpesRBqXV3iuA==
+j1fIBr2x6JZQbIY7d0abjwtUK4ocRaC+qNsdirDnFoANV4JPa+8XNp9bBeHmfuRZOdPBvn+44NbJ&#13;
+ABX2qUZ6csmNS9ZrU+0TwWizPVSqKCH8yFKMS9u30yjU/To+3UwjDtCBZ+WlA53A8zbHjSYS0teu&#13;
+ciOMUteug0pX33icu7Ep5uUlZBICmDpaYJeRkNggHiec4/C2CdrRNm+AJ7oh/Wu90NXDdDE39Wce&#13;
+3MWO7PCG3qBAttx++7CTxO1f6myJb/eTgeal1lf6b7JH1R1qtskXkn9X9FvuJp/yYS9Vpoqn/NT7&#13;
+mnrp5i6AYS0L91d8lFtoyzhlRxwkBpS/5DAQDQ==
 </ds:SignatureValue>
 <ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDUTCCAjmgAwIBAgIEOWH9SzANBgkqhkiG9w0BAQsFADBZMQswCQYDVQQGEwJJVDELMAkGA1UE&#13;
 CBMCUk0xDTALBgNVBAcTBFJvbWExDTALBgNVBAoTBERlbW8xCzAJBgNVBAsTAklUMRIwEAYDVQQD&#13;
@@ -192,6 +192,84 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
 
 
    <md:AttributeConsumingService index="5"> 
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
+        <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	    <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 		
+        <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="companyFiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+    </md:AttributeConsumingService>
+
+	
+	<md:AttributeConsumingService index="10">
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
+        <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	    <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 		
+        <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+    </md:AttributeConsumingService>
+	
+	
+	<md:AttributeConsumingService index="20">
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
+        <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="companyFiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+    </md:AttributeConsumingService>
+	
+	
+	<md:AttributeConsumingService index="30">
+        <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
+        <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
+        <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	    <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 		
+        <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+    </md:AttributeConsumingService>
+	
+	
+	<md:AttributeConsumingService index="40"> 
         <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
         <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
         <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
