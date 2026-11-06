@@ -8,15 +8,15 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>wFHImoBmvMx/1rfZ+67eVIR7NUbpcU/0iXTGgJjYAFQ=</ds:DigestValue>
+<ds:DigestValue>DmtkYEA6Asatc+sJqhpneuQ71pEs2Zo4CsjiIgKZvDc=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-12sXxVJdCfxdunbs3i7g7ek0OakvCuTDaTHMWK3GBFq3uJQMQrolu9wLe/V5hUsqauLlkCaC330V&#13;
-2n73Kl/02ziSmEVxqV31Qbs1u1wT/Rc8hVNBBocUmp243xxoXnoVnqwxGRwtHeq0QSPVT4hLqKlT&#13;
-uOuIDnIf6TpRYEND+9Oy9mBIaFef7rxJC3MXx8e08Ec2QAaLe98gUwerlO9eRAOg/7JTQ/viTp42&#13;
-GCLLkAp+Uk2prR9b6ogMXrszotsWQyU7UPskw0/xPATRq+Qf0QYCl+UOg8C112tt9W5CNk5SEh1Y&#13;
-T6wqdjiEKQXMczGpdeuUXjuDUfYtSVyW8+z/3A==
+uaVJDnw1kpG5usxUeLPX0+LfIQysemqoWEIlt+Fs1Q57LggjHaraPtzMReDseh7bHMrwNnaib5sd&#13;
+cjeiXV0338WSLhjE6AMQWNYPOCY5LVK8PnoStkRsW/+aeUGs1eEhKl1OYugHPiVaeGXdlAUYD9wu&#13;
+/AQ/5W4/6kyo1Ue+bgiSxFR4XwbUJ5DQ6phjb0yfY7BctxbuJS6/vpWxcm4Z7i/TvZCrrz3tuCaW&#13;
+/3qgAhNWy8uhVvOvhq17j8DbUO4x1XTff3znXIsubO0yOa5tQ6qOjNzKe8ByrFaEX7FNEjyVx2r2&#13;
+C/pZmIYD+uTx9ABJzx7odDNnbksE4gF1J1NhTw==
 </ds:SignatureValue>
 <ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDUTCCAjmgAwIBAgIEOWH9SzANBgkqhkiG9w0BAQsFADBZMQswCQYDVQQGEwJJVDELMAkGA1UE&#13;
 CBMCUk0xDTALBgNVBAcTBFJvbWExDTALBgNVBAoTBERlbW8xCzAJBgNVBAsTAklUMRIwEAYDVQQD&#13;
@@ -102,8 +102,9 @@ QqI9J9BYvigG0AuUnfX5MxE8sHAHcwpjWBYX+IUrX068FgXwZQ==</ds:X509Certificate>
 	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portaleservizi-coll.dlci.interno.it/spid-webapp/ResponseResettlement" index="11"/>
 	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portaleservizi-coll.dlci.interno.it/spid-webapp/ResponseSua" index="12"/>
 	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portaleservizi-coll.dlci.interno.it/spid-webapp/ResponseSindaca" index="13"/>
-	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portaleservizi-coll.dlci.interno.it/spid-webapp/ResponseAliSua" index="14"/>
-	
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portaleservizi-coll.dlci.interno.it/spid-webapp/ResponseFnasilo" index="14"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portaleservizi-coll.dlci.interno.it/spid-webapp/ResponseUnrra" index="15"/>
+			
     <md:AttributeConsumingService index="1"> 
         <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceName> 
         <md:ServiceDescription xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Login</md:ServiceDescription> 
